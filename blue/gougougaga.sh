@@ -14,7 +14,8 @@ alias pocuvywxcpoiuaer='echo'
 alias oisvhxwcpoivqpoieur='mv'
 alias kjcqhvoxwiuyoiquezr='cp'
 alias moixwucvpxoicuvpo='man'
-alias xcoiŵvupoeziuarpo='pwd'
+alias xcoiwvupoeziuarpo='pwd'
 alias pxwoivypxocivu='rm'
+alias lkjsdhqfoisuypzeiart='unalias'
 
 source ~/.zshenv
