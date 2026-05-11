@@ -1,0 +1,63 @@
+No.     Time           Source                Destination           Protocol Length Info
+    225 102.310075     NexoCommunic_00:07:01 50:00:00:ae:f7:03     ARP      42     10.0.40.10 is at 00:50:00:00:07:01 (duplicate use of 10.0.40.1 detected!)
+
+Frame 225: Packet, 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface -, id 0
+    Section number: 1
+    Interface id: 0 (-)
+        Interface name: -
+        Interface description: Standard input
+    Encapsulation type: Ethernet (1)
+    Arrival Time: May 11, 2026 14:58:00.052357000 CEST
+    UTC Arrival Time: May 11, 2026 12:58:00.052357000 UTC
+    Epoch Arrival Time: 1778504280.052357000
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 20.000 microseconds]
+    [Time delta from previous displayed frame: 20.000 microseconds]
+    [Time since reference or first frame: 1 minute, 42.310075000 seconds]
+    Frame Number: 225
+    Frame Length: 42 bytes (336 bits)
+    Capture Length: 42 bytes (336 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:arp]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: NexoCommunic_00:07:01 (00:50:00:00:07:01), Dst: 50:00:00:ae:f7:03 (50:00:00:ae:f7:03)
+    Destination: 50:00:00:ae:f7:03 (50:00:00:ae:f7:03)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: NexoCommunic_00:07:01 (00:50:00:00:07:01)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: ARP (0x0806)
+    [Stream index: 1]
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (1)
+    Protocol type: IPv4 (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (2)
+    Sender MAC address: NexoCommunic_00:07:01 (00:50:00:00:07:01)
+    Sender IP address: 10.0.40.10
+    Target MAC address: 50:00:00:ae:f7:03 (50:00:00:ae:f7:03)
+    Target IP address: 10.0.40.1
+[Duplicate IP address detected for 10.0.40.10 (00:50:00:00:07:01) - also in use by 00:50:00:00:0c:01 (frame 224)]
+    [Frame showing earlier use of IP address: 224]
+        [Expert Info (Warning/Sequence): Duplicate IP address configured (10.0.40.10)]
+            [Duplicate IP address configured (10.0.40.10)]
+            [Severity level: Warning]
+            [Group: Sequence]
+    [Seconds since earlier frame seen: 0]
+[Duplicate IP address detected for 10.0.40.1 (50:00:00:ae:f7:03) - also in use by 00:50:00:00:07:01 (frame 224)]
+    [Frame showing earlier use of IP address: 224]
+        [Expert Info (Warning/Sequence): Duplicate IP address configured (10.0.40.1)]
+            [Duplicate IP address configured (10.0.40.1)]
+            [Severity level: Warning]
+            [Group: Sequence]
+    [Seconds since earlier frame seen: 0]
+
+102.310075
+0000  50 00 00 ae f7 03 00 50 00 00 07 01 08 06 00 01   P......P........
+0010  08 00 06 04 00 02 00 50 00 00 07 01 0a 00 28 0a   .......P......(.
+0020  50 00 00 ae f7 03 0a 00 28 01                     P.......(.
