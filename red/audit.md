@@ -217,5 +217,3 @@ La Blue Team a appliqué une excellente posture défensive "Zero Trust" en restr
 Pour les prochains rounds, la Red Team recommande de ne pas s'acharner sur une cible réseau durcie, mais plutôt d'élargir le périmètre de recherche vers les postes utilisateurs (Phishing, ingénierie sociale) ou de chercher des vulnérabilités sur les applications Web exposées afin d'établir un premier point d'ancrage dans le réseau étendu.
 
 ---
-
-.
