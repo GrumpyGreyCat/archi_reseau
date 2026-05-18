@@ -184,7 +184,7 @@ Le serveur web possède le port SSH ouvert. Si nous avions réussi à compromett
 
 
 2. **Attaque par usurpation ARP (ARP Spoofing) en LAN :**
-Au lieu de modifier directement la configuration interne du serveur BIND, nous aurions pu intercepter le trafic à la racine via le protocole réseau local en utilisant des outils comme **Bettercap**. En configurant le module `arp.spoof`  pour cibler les postes clients (ex: *Maurice*, *Bob* ou *Louise* visibles sur la topologie), nous aurions pu nous positionner en "Man-in-the-Middle" (MitM) et intercepter/répondre nous-mêmes aux requêtes DNS à la place du serveur légitime.
+Au lieu de modifier directement la configuration interne du serveur BIND, nous aurions pu intercepter le trafic à la racine via le protocole réseau local en utilisant des outils comme **Bettercap**. En configurant le module `arp.spoof`  pour cibler les postes clients, nous aurions pu nous positionner en "Man-in-the-Middle" (MitM) et intercepter/répondre nous-mêmes aux requêtes DNS à la place du serveur légitime.
 
 
 3. **Exploitation de vulnérabilités sur le service DNS (Port 53) :**
